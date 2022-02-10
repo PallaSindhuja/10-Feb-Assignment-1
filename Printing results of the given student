@@ -1,0 +1,43 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+sno=int(input("Enter student no:"))
+sname=input("Enter student name:")
+sgroup=input("Enter student group")
+s1=int(input("C Language:"))
+s2=int(input("DBMS:"))
+s3=int(input("OOAD:"))
+s4=int(input("Java:"))
+s5=int(input("Operating system:"))
+s6=int(input("Python:"))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    print("Pass")
+else:
+    print("Fail")
+    
+    
+    
+    output:
+    Enter student no:
+25
+Enter student name:
+Rajani
+Enter student group
+BCA
+C Language:
+88
+DBMS:
+78
+OOAD:
+75
+Java:
+85
+Operating system:
+96
+Python:
+99
+Pass
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
